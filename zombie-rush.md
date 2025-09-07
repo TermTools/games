@@ -18,7 +18,7 @@ zombie-rush/
 ## ✅ Game Features
 
 ### Player
-- Controlled by **WASD** keys.
+- Controlled by **WASD** keys and arrow keys.
 - Can move in 4 directions.
 - Rotates to face the mouse cursor.
 - Fires bullets toward the mouse with **left click**.
