@@ -1,13 +1,13 @@
-# Claude Game Dev Series: Castle Defense (Multi-Phase Prompt)
+# Claude Game Dev Series: Stonewall (Multi-Phase Prompt)
 
-You are a code generation assistant. We’re going to build a browser-based tower defense game called **Castle Defense**, using **HTML, CSS, and JavaScript**, rendered in a `<canvas>` element.
+You are a code generation assistant. We’re going to build a browser-based tower defense game called **Stonewall**, using **HTML, CSS, and JavaScript**, rendered in a `<canvas>` element.
 
 This game is **modular, complex, and will be built in PHASES**, each one focused on a specific mechanic or system.
 
 ---
 
 ## 📁 Folder Structure (for all phases)
-castle-defense/
+stonewall/
 ├── index.html
 ├── style.css
 └── game.js
