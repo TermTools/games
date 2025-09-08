@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stonewall - Tower Defense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Stonewall Tower Defense</h1>
+        
+        <div class="ui-panel">
+            <div class="stat">
+                <span class="label">Castle Health:</span>
+                <span id="castle-health" class="value">100</span>
+            </div>
+            <div class="stat">
+                <span class="label">Gold:</span>
+                <span id="gold" class="value">200</span>
+            </div>
+            <div class="stat">
+                <span class="label">Wave:</span>
+                <span id="current-wave" class="value">1</span>
+            </div>
+            <div class="stat">
+                <span class="label">Next Wave:</span>
+                <span id="wave-timer" class="value">5s</span>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        
+        <div class="controls">
+            <div class="info">Click to place towers (50 gold each)</div>
+        </div>
+
+        <div id="game-over" class="game-over-overlay hidden">
+            <div class="game-over-content">
+                <h2>Game Over!</h2>
+                <p>Your castle has fallen!</p>
+                <button id="restart-btn" class="restart-button">Restart Game</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
